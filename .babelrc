@@ -1,12 +1,12 @@
 {
-  'passPerPreset': true,
-    'presets': [
+  "passPerPreset": true,
+    "presets": [
     {
-      'plugins': ['transform-runtime', 'transform-export-extensions']
+      "plugins": ["transform-runtime", "transform-export-extensions"]
     },
     {
-      'passPerPreset': false,
-      'presets': ['es2015', 'stage-0']
+      "passPerPreset": false,
+      "presets": ["es2015", "stage-0"]
     }
     ]
 }
